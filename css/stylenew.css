@@ -1,0 +1,57 @@
+/*
+Error: Invalid CSS after "#666666": expected expression (e.g. 1px, bold), was ";"
+        on line 4 of style.scss.haml
+
+1: .jumbotron {
+2: 
+3:   h1 {
+4:     color: #666666;
+5: 
+6:     span {
+7:       color: #bbbbbb;
+8:     }
+9: 
+
+Backtrace:
+style.scss.haml:4
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/scss/parser.rb:1179:in `expected'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/script/lexer.rb:227:in `expected!'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/script/parser.rb:702:in `assert_done'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/script/parser.rb:64:in `parse'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/script/parser.rb:223:in `parse'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/script.rb:27:in `parse'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:1145:in `parse_script'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:718:in `parse_property'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:689:in `parse_property_or_rule'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:655:in `parse_line'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:533:in `build_tree'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:552:in `block in append_children'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:551:in `each'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:551:in `append_children'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:542:in `block in build_tree'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:535:in `each'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:535:in `build_tree'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:552:in `block in append_children'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:551:in `each'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:551:in `append_children'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:542:in `block in build_tree'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:535:in `each'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:535:in `build_tree'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:552:in `block in append_children'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:551:in `each'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:551:in `append_children'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:406:in `_to_tree'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:414:in `run'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/exec/base.rb:52:in `parse'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/lib/sass/exec/base.rb:19:in `parse!'
+/Users/gabrielleepstein/.rvm/gems/ruby-2.0.0-p353@global/gems/sass-3.4.21/bin/sass:13:in `<top (required)>'
+/Users/gabrielleepstein/.rbenv/versions/2.1.0/bin/sass:23:in `load'
+/Users/gabrielleepstein/.rbenv/versions/2.1.0/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"#666666\": expected expression (e.g. 1px, bold), was \";\"\A         on line 4 of style.scss.haml\A \A 1: .jumbotron {\A 2: \A 3:   h1 {\A 4:     color: #666666;\A 5: \A 6:     span {\A 7:       color: #bbbbbb;\A 8:     }\A 9: "; }

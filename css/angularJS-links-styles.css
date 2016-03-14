@@ -1,0 +1,75 @@
+.angularJS-links .jumbotron {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-left: 0;
+  width: 100%;
+  padding: 120px 60px 120px 35px;
+}
+.glyphicon {
+  vertical-align: middle;
+}
+
+.container-fluid.angularJS-links{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.angularJS-links h2, p {
+  text-align: left;
+  line-height: 1.5;
+  text-shadow: none;
+}
+
+.angularJS-links img {
+  width: 100%;
+  margin-bottom: 15px;
+  opacity: 0.7;
+}
+
+.angularJS-links img:hover {
+  opacity: 1;
+}
+
+.angularJS-links .col-md-4 {
+  text-align: center;
+}
+
+.row-fluid {
+  margin-top: 50px;
+}
+
+/*footer*/
+
+.angularJS-links-footer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.angularJS-links-footer ul {
+  list-style: none;
+  text-align: center;
+}
+
+.angularJS-links-footer li {
+  display: inline-block;
+}
+
+.angularJS-links-footer img {
+  padding: 20px 60px 0 0;
+  opacity: 0.5;
+}
+
+.angularJS-links-footer p {
+  color: white;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  font-size: 0.8em;
+  bottom: 0;
+}
+
+/*footer hover effects*/
+
+.angularJS-links-footer img:hover {
+  opacity: 1;
+}

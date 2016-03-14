@@ -1,0 +1,98 @@
+#supporting {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+h1, h2, h3, h4, p, li{
+  color: black;
+  text-align: center;
+  text-shadow: none;
+}
+
+a {
+  color: rgba(50, 50, 50, 1);
+}
+
+a:hover {
+  text-decoration: none;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+ul {
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.bullets li{
+  list-style: circle;
+  text-align: left;
+  padding-bottom: 6px;
+}
+
+.pad-bottom>li{
+  padding-bottom: 10px;
+}
+
+#accordion {
+  border-radius: 6px;
+  margin-top: 15px;
+}
+
+.experience {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+h3 {
+  color: white;
+  background-color: rgba(0,0,0,.3);
+  margin: 0;
+  padding: 20px 0 10px;
+}
+h3:hover {
+  color: white;
+  background-color: rgba(0,0,0,.5);
+  cursor: pointer;
+}
+
+/*footer*/
+
+.mar-landing-footer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.mar-landing-footer ul {
+  list-style: none;
+  text-align: center;
+}
+
+.mar-landing-footer li {
+  display: inline-block;
+}
+
+.mar-landing-footer img {
+  padding: 20px 60px 0 0;
+  opacity: 0.5;
+}
+
+.mar-landing-footer p {
+  color: white;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  font-size: 0.8em;
+  bottom: 0;
+}
+
+/*footer hover effects*/
+
+.mar-landing-footer img:hover {
+  opacity: 1;
+}
+
+

@@ -1,0 +1,76 @@
+.javascript-jQuery-links .jumbotron {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-left: 0;
+  width: 100%;
+  padding: 120px 60px 120px 35px;
+}
+
+.glyphicon {
+  vertical-align: middle;
+}
+.javascript-jQuery-links h2, p {
+  text-align: left;
+  line-height: 1.5;
+  text-shadow: none;
+}
+
+.container-fluid.javascript-jQuery-links{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.javascript-jQuery-links img {
+  width: 100%;
+  margin-bottom: 15px;
+  opacity: 0.7;
+}
+.javascript-jQuery-links img:hover {
+  opacity: 1;
+}
+.javascript-jQuery-links .col-md-4 {
+  text-align: center;
+}
+
+.row-fluid {
+  margin-top: 50px;
+}
+
+
+/*footer*/
+
+.javascript-jquery-footer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.javascript-jquery-footer ul {
+  list-style: none;
+  text-align: center;
+}
+
+.javascript-jquery-footer li {
+  display: inline-block;
+}
+
+.javascript-jquery-footer img {
+  padding: 20px 60px 0 0;
+  opacity: 0.5;
+}
+
+.javascript-jquery-footer p {
+  color: white;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  font-size: 0.8em;
+  bottom: 0;
+}
+
+/*footer hover effects*/
+
+.javascript-jquery-footer img:hover {
+  opacity: 1;
+}
+
+

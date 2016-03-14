@@ -1,0 +1,75 @@
+.html-css-links .jumbotron {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-left: 0;
+  width: 100%;
+  padding: 120px 60px 120px 35px;
+}
+.glyphicon {
+  vertical-align: middle;
+}
+
+.container-fluid.html-css-links{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.html-css-links h2, p {
+  text-align: left;
+  line-height: 1.5;
+  text-shadow: none;
+}
+
+.html-css-links img {
+  width: 100%;
+  margin-bottom: 15px;
+  opacity: 0.7;
+}
+
+.html-css-links img:hover {
+  opacity: 1;
+}
+
+.html-css-links .col-md-4 {
+  text-align: center;
+}
+
+.row-fluid {
+  margin-top: 50px;
+}
+
+/*footer*/
+
+.html-css-links-footer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.html-css-links-footer ul {
+  list-style: none;
+  text-align: center;
+}
+
+.html-css-links-footer li {
+  display: inline-block;
+}
+
+.html-css-links-footer img {
+  padding: 20px 60px 0 0;
+  opacity: 0.5;
+}
+
+.html-css-links-footer p {
+  color: white;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  font-size: 0.8em;
+  bottom: 0;
+}
+
+/*footer hover effects*/
+
+.html-css-links-footer img:hover {
+  opacity: 1;
+}

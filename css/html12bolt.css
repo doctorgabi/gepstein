@@ -1,0 +1,145 @@
+html, body {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 970px;
+}
+
+#black {
+  color: white;
+  background-color: black;
+}
+
+.blue {
+  border: 1px solid #0393FF;
+  border-radius: 2px;
+  color: #0393FF;
+  padding: 8px 20px;
+}
+.blue:hover {
+  color: white;
+  background-color: #0393FF !important;
+  /*This overrides the default white background of bootstrap. Increasing the specificity also works but I chose !important because these buttons are all over the page and I'd need to write section-specific rules like this all over. Specificity doesn't work at the level of "body", but works at eg: .jumbotron .btn:hover.*/
+}
+
+
+/*jumbotron*/
+.jumbotron {
+  background-color: black;
+  padding: 48px 0;
+  margin-bottom: 0;
+}
+/* jumbotron header */
+.header li {
+  display: inline-block;
+}
+
+.header img {
+  width: 165px;
+  height: 31px;
+  margin: 6px 0;
+}
+
+/*jumbotron main*/
+.main {
+  background-color: black;
+  text-align: center;
+}
+
+.main h1 {
+  color: white;
+  margin: 80px 0 40px 0;
+}
+
+.form-inline {
+    margin-top: 80px;
+}
+
+.main input, .btn {
+  background-color: black;
+}
+
+#search {
+  border: none;
+  border-bottom: 1px solid white;
+  margin: 0 20px;
+  width: 400px;
+  font-size: 18px;
+  padding: 6px 12px;
+}
+#search:hover, #search:focus {
+  border-bottom: 1px solid #0393FF;
+}
+
+
+/*supporting*/
+
+.supporting {
+  background-image: url(s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  background-size: 141px 142px;
+  background-color: #151515;
+  text-align: center;
+}
+
+.supporting h2 {
+  color: #0393FF;
+  margin: 60px 0 10px 0;
+  font-size: 32px;
+}
+
+.supporting p {
+  color: white;
+  margin-bottom: 45px;
+}
+
+.thumbnail {
+  border-style: none;
+  margin-bottom: 20px;
+  background-color: #151515;
+  padding: 0 15px;
+}
+
+/*feature*/
+.feature {
+  text-align: center;
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 0 0;
+  height: 380px;
+}
+.feature h1 {
+  margin: 60px 0 10px 0;
+  color: #0393FF;
+  font-size: 32px;
+}
+.feature p {
+  color: white;
+  font-size: 18px;
+}
+
+/*footer*/
+
+.footer {
+  background-color: black;
+  padding: 60px 0;
+}
+
+.footer h3 {
+  color: white;
+  font-size: 18px;
+}
+
+.footer ul {
+  padding: 0;
+}
+
+.footer li {
+  color: #0393ff;
+  font-size: 14px;
+  list-style: none;
+}

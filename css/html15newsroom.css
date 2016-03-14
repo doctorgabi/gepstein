@@ -1,0 +1,165 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+/*header*/
+.header {
+  background-color: black;
+  padding-bottom: 15px;
+}
+
+.header .logo {
+  width: 210px;
+  height: 50px;
+  vertical-align: middle;
+  margin-top: 15px;
+}
+
+.form-group #search-button, #search-box{
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  padding-left: 0;
+  border-bottom: 1px solid white;
+  margin-top: 25px;
+}
+.form-group #search-button {
+  text-align: center;
+  color: white;
+  padding: 7px 10px;
+}
+
+.form-group #search-box {
+  width: 240px;
+  border-bottom: 1px solid white;
+  color: grey;
+}
+
+.form-group #search-box:hover {
+  border-bottom: 1px solid #1A77FF;
+}
+
+/*menu*/
+
+.menu {
+  background-color: #152230;
+}
+
+.menu ul {
+  display: inline-block;
+}
+
+.menu li {
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.menu li:hover, .active {
+  background-color: #1A77FF;
+}
+
+
+/*main*/
+.main {
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+
+.main .col-md-5 {
+  padding: 40px;
+}
+
+.main h2 {
+  font-size: 60px;
+  margin: 20px 0;
+}
+.main h2 span {
+  border-bottom: 5px solid #1A77FF;
+}
+
+.main p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/*supporting*/
+
+.supporting {
+  background-color: #F2F2F2;
+}
+
+.supporting .row {
+  margin: 50px 0;
+}
+
+.supporting h3 {
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.supporting h4 {
+  margin-bottom: 20px;
+}
+
+.supporting ul {
+  list-style: none;
+  padding: 0;
+}
+
+.supporting span {
+  border-bottom: 3px solid #1A77FF;
+}
+
+.supporting .col-md-8 {
+  background-color: white;
+  padding: 20px 40px 40px 40px;
+}
+.supporting .sidebar {
+  background-color: #152230;
+  color: white;
+  padding: 20px 40px 40px 40px;
+}
+
+.supporting img {
+  width: 100%;
+}
+
+.supporting .col-md-12 {
+  padding: 0;
+}
+/*footer*/
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.footer .col-md-6 {
+  padding-left:0;
+  margin-left:0;
+}
+.footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+.footer li {
+  display: inline-block;
+  text-align: left;
+  padding: 40px 40px 40px 0;
+  margin-left: 0;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.footer p {
+  text-align: right;
+  padding-top: 40px;
+}
+

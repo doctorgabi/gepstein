@@ -1,0 +1,150 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  background-color: #161718;
+}
+
+/*jumbotron*/
+
+.jumbotron {
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/bass/bg.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 560px;
+  padding: 48px 30px;
+  margin-bottom: 30px 0;
+}
+
+/*jumbotron header*/
+.logo {
+  width: 106px;
+  height: 75px;
+  vertical-align: middle;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 8px 30px;
+  vertical-align: middle;
+}
+
+.nav li a {
+  color: white;
+}
+
+.nav li a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+.btn {
+  background-color: red;
+  border-radius: 0;
+
+}
+.nav .btn:hover {
+  color: black;
+  background-color: red;
+  text-decoration: none;
+}
+
+/*jumbotron main*/
+
+.main h1 {
+  margin: 20px 0 10px 0;
+  padding-top: 60px;
+}
+
+.main p {
+  margin-bottom: 15px;
+}
+
+/*supporting*/
+
+.supporting img {
+  width: 450px;
+  height: 300px;
+  vertical-align: middle;
+}
+
+.supporting .container {
+  padding: 0 15px;
+}
+
+.supporting-1, .supporting-3{
+  background-color: #161718;
+  padding: 70px 30px;
+}
+.supporting-2 {
+  background-color: black;
+  padding: 70px 30px;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 20px 0 10px 0;
+}
+p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.supporting-4 {
+  height: 400px;
+  text-align: center;
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/bass/feature.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 0 30px 0;
+}
+
+.supporting-4 h2 {
+  margin: 80px 0 10px 0;
+}
+
+.supporting-4 img:nth-child(2) {
+  height: 42px;
+  width: 141px;
+}
+.supporting-4 img:nth-child(3) {
+  height: 42px;
+  width: 119px;
+}
+
+/*footer*/
+.footer {
+  padding: 50px 0 35px;
+  background-color: black;
+}
+
+.footer h3 {
+  font-size: 15px;
+  margin: 20px 0 10px 0;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer li {
+  padding: 0;
+}
+
+.footer a {
+  font-size: 13px;
+  color: #aaa;
+  text-decoration: none;
+  padding: 5px 0;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+
+
